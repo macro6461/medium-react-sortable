@@ -11,8 +11,6 @@ const ToDoList = ({items}) =>{
                 return <SortableItem 
                     todo={x}
                     index={i}
-                    id={x.id}
-                    value={x}
                     key={x.id}
                 />
             })}

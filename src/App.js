@@ -19,7 +19,6 @@ function App() {
   const [todos, setTodos] = useState(todosInit);
 
   const onSortEnd = (e) =>{
-    debugger
     var newTodos = arrayMove(todos, e.oldIndex, e.newIndex )
     setTodos(newTodos)
   };
