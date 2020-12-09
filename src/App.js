@@ -14,7 +14,7 @@ const todosInit = [
 
 const SortableList = SortableContainer(ToDoList);
 
-function App() {
+const App = () => {
   
   const [todos, setTodos] = useState(todosInit);
 
